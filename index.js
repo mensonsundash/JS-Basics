@@ -1,2 +1,3 @@
-// This is my first JavaScript Code!!
-console.log("Welcome to External Script file!");
+let interestRate = 0.3;
+interestRate = 1;
+console.log(interestRate)

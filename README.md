@@ -1,7 +1,7 @@
 # JS-Basics
 Basic Understanding of Javascript
 
-Interactive Programming Languagae. Originally designed to run in browser.
+Interactive Programming Language. Originally designed to run in browser.
 
 In 2009 Ryan Dahl an American Software Engineer who is best known for creating the Node.js JavaScript, TypeScript runtime. Who took JavaScript Google V8 Engine and embedded in C++ program.
 
