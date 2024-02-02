@@ -1,3 +1,5 @@
-let interestRate = 0.3;
-interestRate = 1;
-console.log(interestRate)
+let name = 'John';
+let age = 30;
+let isOpened = false;
+let firstName = undefined;
+let selectorColor = null;
