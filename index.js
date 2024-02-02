@@ -1,5 +1,10 @@
-let name = 'John';
-let age = 30;
-let isOpened = false;
-let firstName = undefined;
-let selectorColor = null;
+// let person = {}//Object literals
+let person = {
+    name: 'John',
+    age: 30
+}
+person.name = 'Billard';
+person['age'] = 33;
+let selection = 'name';
+person[selection] = 'Brown'
+console.log(person);
