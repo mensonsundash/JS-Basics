@@ -1,10 +1,10 @@
 // Function
-//define function
-function greet(name, lastName) {// name is parameter
-    //body of function
-    console.log(`Hello ${name} ${lastName}, Welcome!`);
+//calculate a value 
+function square(number) { //function is defined to return something on call.
+    return number * number;
 }
 
-//function call
-greet('John', 'Coel'); //function with argument
-greet('Marry', 'Moose');
+
+let number = square(2); // define variable to set returned value from function call.
+console.log(number)
+//console.log(); Itself a function which takes parenthesis.
