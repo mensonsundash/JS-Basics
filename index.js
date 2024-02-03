@@ -1,14 +1,18 @@
 //Object orient programming
 //OOP concepts
-//Encapsulations
-
-let employee = {
-    baseSalary: 30_000,
-    overtime: 10,
-    rate: 20,
-    getWage: function() {
-        return this.baseSalary + (this.overtime * this.rate);
+//Objects
+//Declaring variable using Var has issues like scoping so use either let or Const
+//ES6
+const circle = {//{}object literals syntax 
+    radius:1, //properties
+    location: { //properties
+        x: 1,
+        y: 1
+    },
+    draw: function () { //methods
+        console.log('draw');
     }
 };
 
-employee.getWage();
+
+circle.draw();
