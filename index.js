@@ -6,5 +6,5 @@ let person = {
 person.name = 'Billard';
 person['age'] = 33;
 let selection = 'name';
-person[selection] = 'Brown'
+person[selection] = 'Cooler';
 console.log(person);
