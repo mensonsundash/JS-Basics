@@ -4,17 +4,15 @@
 //Declaring variable using Var has issues like scoping so use either let or Const
 //ES6
 
-//Constructor Function
-
-function Circle(radius) {
-    this.radius = radius;
-    this.draw = function () {
-        console.log('draw');
-    }
+//Factory function
+function createCircle(radius) {
+    return {//{}object literals syntax 
+        radius, //ES6-> radius: radius if key and value are same remove noise
+        draw: function () { //methods
+            console.log('draw');
+        }
+    };
 }
+//We can create a new object circle
+const circle = createCircle(1); //calling factory function 
 
-const another = new Circle(1);
-//when we use new operator to call a function
-// it will create empty object ,(Circle {})
-// Then it will set this to point to that object
-// Finally it will return that object from this(Circle()) function
