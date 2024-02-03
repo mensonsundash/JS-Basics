@@ -1,10 +1,6 @@
-// let person = {}//Object literals
-let person = {
-    name: 'John',
-    age: 30
-}
-person.name = 'Billard';
-person['age'] = 33;
-let selection = 'name';
-person[selection] = 'Cooler';
-console.log(person);
+//Arrays
+let selectedProducts = []; //Array literals; indicating empty array
+
+selectedProducts = ['Chairs', 'Tables', 'dinning set'];
+selectedProducts[3] = 'Shoes Racks' 
+console.log(selectedProducts.length);
