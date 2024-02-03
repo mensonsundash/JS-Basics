@@ -1,10 +1,14 @@
-// Function
-//calculate a value 
-function square(number) { //function is defined to return something on call.
-    return number * number;
-}
+//Object orient programming
+//OOP concepts
+//Encapsulations
 
+let employee = {
+    baseSalary: 30_000,
+    overtime: 10,
+    rate: 20,
+    getWage: function() {
+        return this.baseSalary + (this.overtime * this.rate);
+    }
+};
 
-let number = square(2); // define variable to set returned value from function call.
-console.log(number)
-//console.log(); Itself a function which takes parenthesis.
+employee.getWage();
