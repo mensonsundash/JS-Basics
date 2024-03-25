@@ -5,7 +5,7 @@ Interactive Programming Language. Originally designed to run in browser.
 
 In 2009 Ryan Dahl an American Software Engineer who is best known for creating the Node.js JavaScript, TypeScript runtime. Who took JavaScript Google V8 Engine and embedded in C++ program.
 
-Now Javascript can run outside the browsers. Which mean we can send JavaScript Code to node fro execution, we can build backend.
+Now Javascript can run outside the browsers. Which mean we can send JavaScript Code to node for execution, we can build backend.
 
 Node is a runtime environment to execute javascript code.
 
